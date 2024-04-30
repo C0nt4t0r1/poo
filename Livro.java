@@ -1,13 +1,12 @@
 public class Book {
-    // Classe
+    
     public static class Livro {
-        // Atributos
+        
         private String Titulo;
         private String Autor;
         private int AnoPublicacao;
         private boolean Emprestado;
 
-        // Construtor
         public Livro(String Tit, String Aut, int AnoP) {
             this.Titulo = Tit;
             this.Autor = Aut;
@@ -15,7 +14,6 @@ public class Book {
             this.Emprestado();
         }
 
-        // Métodos
         public String getTitulo() {
             return this.Titulo;
         }
