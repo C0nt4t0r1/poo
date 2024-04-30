@@ -1,4 +1,4 @@
-public class School {
+public class Escola {
     // Class
     public static class Aluno {
         // Attributes
