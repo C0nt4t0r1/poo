@@ -13,8 +13,8 @@ public class Escola {
         }
 
         // Constructor with parameters
-        public Aluno(String Nme, String Mat, String Cur, int ADI) {
-            this.Nome = Nme;
+        public Aluno(String Nom, String Mat, String Cur, int ADI) {
+            this.Nome = Nom;
             this.Matricula = Mat;
             this.Curso = Cur;
             this.AnoDeIngresso = ADI;
@@ -25,8 +25,8 @@ public class Escola {
             return this.Nome;
         }
 
-        public void setNome(String Nme) {
-            this.Nome = Nme;
+        public void setNome(String Nom) {
+            this.Nome = Nom;
         }
 
         public String getMatricula() {
@@ -69,7 +69,7 @@ public class Escola {
     }
 
     public static void main(String[] args) {
-        Aluno student = new Aluno("Jose", "2932y3h", "Filosofia", 2003);
+        Aluno student = new Aluno("Olavo de Carvalho", "1337g3x", "Filosofia", 1993);
         student.imprimirInfo();
     }
 }
