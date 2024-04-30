@@ -1,15 +1,13 @@
 public class Car {
-    // Class
+    
     public static class Carro {
 
-        // Attributes
         private String Marca;
         private String Modelo;
         private int Ano;
         private String Color;
         private double velocidadeAtual;
 
-        // Constructor
         public Carro(String Mar, String Mod, int Ano, String Col) {
             this.Marca = Mar;
             this.Modelo = Mol;
@@ -18,7 +16,6 @@ public class Car {
             this.velocidadeAtual = 0;
         }
 
-        // Methods
         public String getMarca() {
             return this.Marca;
         }
