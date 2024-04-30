@@ -7,8 +7,8 @@ public class Book {
         private int AnoPublicacao;
         private boolean Emprestado;
 
-        public Livro(String Tit, String Aut, int AnoP) {
-            this.Titulo = Tit;
+        public Livro(String Titu, String Aut, int AnoP) {
+            this.Titulo = Titu;
             this.Autor = Aut;
             this.AnoPublicacao = AnoP;
             this.Emprestado();
@@ -18,8 +18,8 @@ public class Book {
             return this.Titulo;
         }
 
-        public void setTitulo(String Tit) {
-            this.Titulo = Tit;
+        public void setTitulo(String Titu) {
+            this.Titulo = Titu;
         }
 
         public String getAutor() {
