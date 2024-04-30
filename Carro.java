@@ -75,9 +75,9 @@ public class Car {
     }
 
     public static void main(String[] args) {
-        Carro Carruagem = new Carro("Toyota", "Supra", 1998, "Branca");
-        Carruagem.Acelerar(240);
-        Carruagem.Frear(140);
-        Carruagem.ExibirInformacoes();
+        Carro IsThatA = new Carro("Toyota", "Supra", 1998, "Branca");
+        IsThatA.Acelerar(240);
+        IsThatA.Frear(140);
+        IsThatA.ExibirInformacoes();
     }
 }
