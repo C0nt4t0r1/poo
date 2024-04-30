@@ -1,17 +1,15 @@
 public class Relogio {
-    // Class
+    
     public static class clock {
-        // Attributes
+        
         private int Horas;
         private int Minutos;
 
-        // Constructor
         public clock(int Hour, int Minutes) {
             this.Horas = Hour;
             this.Minutos = Minutes;
         }
 
-        // Methods
         public int getHoras() {
             return this.Horas;
         }
