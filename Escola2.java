@@ -1,13 +1,12 @@
 public class Escola {
-    // Class
+    
     public static class Aluno {
-        // Attributes
+        
         private String Nome;
         private int Idade;
         private String RegistroAluno;
         private String Curso;
 
-        // Constructor
         public Aluno(String Name, int Age, String Ra, String Course) {
             this.Nome = Name;
             this.Idade = Age;
@@ -15,7 +14,6 @@ public class Escola {
             this.Curso = Course;
         }
 
-        // Methods
         public String getNome() {
             return this.Nome;
         }
