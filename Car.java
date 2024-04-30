@@ -10,11 +10,11 @@ public class Car {
         private double velocidadeAtual;
 
         // Constructor
-        public Carro(String Mrc, String Mdl, int Ano, String Cor) {
-            this.Marca = Mrc;
-            this.Modelo = Mdl;
+        public Carro(String Mar, String Mod, int Ano, String Col) {
+            this.Marca = Mar;
+            this.Modelo = Mol;
             this.Ano = Ano;
-            this.Color = Cor;
+            this.Color = Col;
             this.velocidadeAtual = 0;
         }
 
@@ -23,16 +23,16 @@ public class Car {
             return this.Marca;
         }
 
-        public void setMarca(String Mrc) {
-            this.Marca = Mrc;
+        public void setMarca(String Mar) {
+            this.Marca = Mar;
         }
 
         public String getModelo() {
             return this.Modelo;
         }
 
-        public void setModelo(String Mdl) {
-            this.Modelo = Mdl;
+        public void setModelo(String Mod) {
+            this.Modelo = Mod;
         }
 
         public int getAno() {
@@ -47,8 +47,8 @@ public class Car {
             return this.Color;
         }
 
-        public void setColor(String Cor) {
-            this.Color = Cor;
+        public void setColor(String Col) {
+            this.Color = Col;
         }
 
         public void Acelerar(double valor) {
@@ -78,9 +78,9 @@ public class Car {
     }
 
     public static void main(String[] args) {
-        Carro Carruagem = new Carro("Lexus", "Es300h", 1998, "Verde esmeralda");
-        Carruagem.Acelerar(200);
-        Carruagem.Frear(120);
+        Carro Carruagem = new Carro("Toyota", "Supra", 1998, "Branca");
+        Carruagem.Acelerar(240);
+        Carruagem.Frear(140);
         Carruagem.ExibirInformacoes();
     }
 }
