@@ -1,18 +1,16 @@
 public class Escola {
-    // class
+    
     public static class Aluno {
-        // Attributes
+        
         private String Nome;
         private String Matricula;
         private String Curso;
         private int AnoDeIngresso;
 
-        // Constructor default
         public Aluno() {
 
         }
 
-        // Constructor with parameters
         public Aluno(String Nom, String Mat, String Cur, int ADI) {
             this.Nome = Nom;
             this.Matricula = Mat;
@@ -20,7 +18,6 @@ public class Escola {
             this.AnoDeIngresso = ADI;
         }
 
-        // Methods
         public String getNome() {
             return this.Nome;
         }
