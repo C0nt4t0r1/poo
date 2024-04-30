@@ -8,10 +8,10 @@ public class Book {
         private boolean Emprestado;
 
         // Construtor
-        public Livro(String Ttl, String Aut, int Anop) {
-            this.Titulo = Ttl;
+        public Livro(String Tit, String Aut, int AnoP) {
+            this.Titulo = Tit;
             this.Autor = Aut;
-            this.AnoPublicacao = Anop;
+            this.AnoPublicacao = AnoP;
             this.Emprestado();
         }
 
@@ -20,8 +20,8 @@ public class Book {
             return this.Titulo;
         }
 
-        public void setTitulo(String Ttl) {
-            this.Titulo = Ttl;
+        public void setTitulo(String Tit) {
+            this.Titulo = Tit;
         }
 
         public String getAutor() {
@@ -36,8 +36,8 @@ public class Book {
             return this.AnoPublicacao;
         }
 
-        public void setAnoPublicacao(int Anop) {
-            this.AnoPublicacao = Anop;
+        public void setAnoPublicacao(int AnoP) {
+            this.AnoPublicacao = AnoP;
         }
 
         public void Emprestado() {
@@ -59,7 +59,7 @@ public class Book {
     }
 
     public static void main(String[] args) {
-        Livro sla = new Livro("Anedota de um assa sino", "Morgano homem livre", 2024);
+        Livro sla = new Livro("Limbo", "VelhoVamp", 2023);
         sla.ExibirInformacoes();
     }
 }
